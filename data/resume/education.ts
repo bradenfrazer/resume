@@ -4,13 +4,13 @@ const education: Section = {
   title: "EDUCATION",
   subsections: [
     {
-      title: "Bachelor's in Computer Science",
-      description: "Sep 2011 - Jun 2015 | Ozyegin University",
+      title: "Texas A&M University",
+      description: "Bachelor of Science in Computer Science | 2012 – 2017",
       body: [
         {
           type: "paragraph",
           items: [
-            "100% scholarship received from significant achievement obtained on Computer Games Workshop 3, and graduated with a GPA of 3.27 on a 4.0 scale and an honor certificate",
+            "Minored in Art and Mathematics. Graduated Cum Laude.",
           ],
         },
       ],

@@ -8,16 +8,16 @@ import skills from "./resume/skills";
 import about from "./resume/about";
 
 const resume: Resume = {
-  name: "Oguz Gelal",
-  image: "/oguz.jpg",
-  title: "Senior Front-End Engineer",
+  name: "Braden Frazer",
+  image: "/logo.png",
+  title: "Software Engineer (UX)",
   sections: [
     about,
-    education,
     experiences,
+    education,
     projects,
-    publications,
     skills,
+    publications,
   ],
 };
 

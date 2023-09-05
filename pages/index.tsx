@@ -7,7 +7,7 @@ import resume from "../data/resume";
 const Home: NextPage = () => (
   <>
     <Head>
-      <title>Oguz Gelal | CV</title>
+      <title>Braden Frazer | Resume</title>
     </Head>
 
     <Resume resume={resume} />
