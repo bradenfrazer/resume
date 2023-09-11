@@ -15,7 +15,6 @@ const HeaderImage: FC<HeaderImageProps> = ({ src, name }) => {
       height={40}
       objectFit="cover"
       objectPosition="top"
-      className="rounded"
     />
   );
 };

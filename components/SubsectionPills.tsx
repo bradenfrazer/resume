@@ -11,7 +11,7 @@ const SubsectionPills: FC<SubsectionPillsProps> = ({ items }) => {
         {items.map((item, i) => (
           <li
             key={i}
-            className="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+            className="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200 print:bg-white print:outline print:outline-gray-300 print:outline-offset-[-2px] print:outline-2"
           >
             {item}
           </li>

@@ -15,7 +15,7 @@ const HeaderContact: FC<HeaderContactProps> = ({
 }) => {
   return (
     <ul className="grid md:grid-cols-2 print:grid-cols-2">
-      <li className="mt-1.5 flex items-start text-md text-gray-700 leading-normal md:order-1">
+      <li className="mt-1.5 flex items-start text-md text-gray-700 leading-normal md:order-1 print:order-1">
         <span className="flex items-center flex-shrink-0">
           <svg
             className="w-4.5 h-4.5"
@@ -30,7 +30,7 @@ const HeaderContact: FC<HeaderContactProps> = ({
         </span>
         <span className="ml-1.5">{location}</span>
       </li>
-      <li className="mt-1.5 flex items-start text-md text-gray-700 leading-normal md:order-3">
+      <li className="mt-1.5 flex items-start text-md text-gray-700 leading-normal md:order-3 print:order-3">
         <a href={`tel:${phone}`} target="_blank" className="group flex">
           <span className="flex items-center flex-shrink-0">
             <svg
@@ -50,7 +50,7 @@ const HeaderContact: FC<HeaderContactProps> = ({
           </span>
         </a>
       </li>
-      <li className="mt-1.5 flex items-start text-md text-gray-700 leading-normal md:order-2">
+      <li className="mt-1.5 flex items-start text-md text-gray-700 leading-normal md:order-2 print:order-2">
         <a
           href={`https://www.${website}`}
           target="_blank"
@@ -71,7 +71,7 @@ const HeaderContact: FC<HeaderContactProps> = ({
           <span className="ml-1.5">{website}</span>
         </a>
       </li>
-      <li className="mt-1.5 flex items-start text-md text-gray-700 leading-normal md:order-4">
+      <li className="mt-1.5 flex items-start text-md text-gray-700 leading-normal md:order-4 print:order-4">
         <a href={`mailto:${email}`} target="_blank" className="group flex">
           <span className="flex items-center flex-shrink-0">
             <svg
