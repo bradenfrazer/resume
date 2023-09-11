@@ -3,7 +3,6 @@ import { Resume } from "./types";
 import education from "./resume/education";
 import experiences from "./resume/experiences";
 import projects from "./resume/projects";
-import publications from "./resume/publications";
 import skills from "./resume/skills";
 import about from "./resume/about";
 
@@ -11,14 +10,7 @@ const resume: Resume = {
   name: "Braden Frazer",
   image: "/logo.png",
   title: "Software Engineer (UX)",
-  sections: [
-    about,
-    experiences,
-    education,
-    projects,
-    skills,
-    publications,
-  ],
+  sections: [about, experiences, education, projects, skills],
 };
 
 export default resume;

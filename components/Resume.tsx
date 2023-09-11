@@ -9,6 +9,7 @@ import Subsection from "./Subsection";
 import SubsectionHeader from "./SubsectionHeader";
 import HeaderName from "./HeaderName";
 import HeaderImage from "./HeaderImage";
+import HeaderContact from "./HeaderContact";
 import Renderable from "./Renderable";
 
 type ResumeProps = {
@@ -18,8 +19,18 @@ type ResumeProps = {
 const Resume: FC<ResumeProps> = ({ resume }) => (
   <Wrapper>
     <Header>
-      <HeaderImage src={resume.image} name={resume.name} />
-      <HeaderName name={resume.name} title={resume.title} />
+      <div className="flex items-center flex-1">
+        <HeaderImage src={resume.image} name={resume.name} />
+        <HeaderName name={resume.name} title={resume.title} />
+      </div>
+      <div className="flex-1">
+        <HeaderContact
+          phone={2819097514}
+          website="bradenfrazer.com"
+          location="Dallas, TX"
+          email="bradenfrazer@gmail.com"
+        />
+      </div>
     </Header>
 
     <Column>
