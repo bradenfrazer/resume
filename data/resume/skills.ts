@@ -9,20 +9,13 @@ const skills: Section = {
       body: [
         {
           type: "pills",
-          items: [
-            "CSS / SCSS",
-            "TypeScript",
-            "React",
-            "Vue",
-            "Git",
-          ],
+          items: ["CSS / SCSS", "TypeScript", "React", "Vue", "Git"],
         },
       ],
     },
     {
       title: "",
-      description:
-        "User Experience",
+      description: "UI/UX",
       body: [
         {
           type: "pills",
@@ -40,12 +33,11 @@ const skills: Section = {
     },
     {
       title: "Other",
-      description:
-        "",
+      description: "",
       body: [
         {
           type: "pills",
-          items: ["Photoshop / Illustator", "Photography", "Video Editing"],
+          items: ["Photoshop / Illustrator", "Photography", "Video Editing"],
         },
       ],
     },

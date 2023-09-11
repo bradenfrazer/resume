@@ -6,7 +6,7 @@ const projects: Section = {
     {
       title: "Nintendle",
       titleHref: "https://nintendle.bradenfrazer.com",
-      description: "Word Guessing Game | React, Tailwind, Vite, Zustand",
+      description: "Word Guessing Game | React, Tailwind CSS, Zustand",
       body: [
         {
           type: "paragraph",
@@ -19,7 +19,7 @@ const projects: Section = {
     {
       title: "Pokedex",
       titleHref: "/projects/pokedex/",
-      description: "Pokemon Encyclopedia | React, Tailwind, APIs",
+      description: "Pokemon Encyclopedia | React, Tailwind CSS, PokeAPI",
       body: [
         {
           type: "paragraph",
@@ -30,27 +30,27 @@ const projects: Section = {
       ],
     },
     {
-      title: "National Parks",
-      titleHref: "/projects/nationalparks/",
-      description: "Travel Informational App | Vue, SCSS, APIs",
+      title: "Weathrr",
+      titleHref: "https://weathrr.bradenfrazer.com",
+      description: "Weather App | React, Tailwind CSS, OpenWeatherMap API",
       body: [
         {
           type: "paragraph",
           items: [
-            "A listing of national parks located in the United States pulled from the National Park Service API.",
+            "Weather conditions app built in React. The current temperature, humidity, pressure, wind speed, and conditions are pulled from OpenWeatherMap's API.",
           ],
         },
       ],
     },
     {
-      title: "Weathrr",
-      titleHref: "/projects/weathrr/",
-      description: "Simple Weather App | React, Bootstrap, APIs",
+      title: "National Parks",
+      titleHref: "/projects/nationalparks/",
+      description: "Travel Info App | Vue, SCSS, National Park Service API",
       body: [
         {
           type: "paragraph",
           items: [
-            "Weather conditions app built in React. The location name, current temperature, humidity, and conditions are pulled and displayed from OpenWeatherMap's API.",
+            "A listing of national parks located in the United States pulled from the National Park Service API.",
           ],
         },
       ],

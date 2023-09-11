@@ -18,6 +18,8 @@ const experiences: Section = {
             "Ensured consistency between Figma and React components using Storybook.",
             "Backed design and A/B test initiatives with formal UX studies from Baymard and Nielsen Norman Group.",
             "Implemented WCAG (accessibility) best practices including ARIA roles and color contrast.",
+            "Facilitated collaboration of engineering and design.",
+            "Established consistent styling and user experience across the website.",
           ],
         },
       ],
@@ -42,9 +44,7 @@ const experiences: Section = {
       body: [
         {
           type: "list",
-          items: [
-            "Built and maintained reusable WordPress websites.",
-          ],
+          items: ["Built and maintained reusable WordPress websites."],
         },
       ],
     },

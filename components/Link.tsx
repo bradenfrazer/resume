@@ -17,13 +17,18 @@ const Link: FC<LinkProps> = ({ title, href, inline, className }) => {
           className
         )}
         href={href}
+        target="_blank"
       >
         {title}
       </a>
     );
   }
   return (
-    <a href={href} className="group inline-flex items-center hover:underline">
+    <a
+      href={href}
+      target="_blank"
+      className="group inline-flex items-center hover:underline"
+    >
       {title}
       <span
         className={clsx(
