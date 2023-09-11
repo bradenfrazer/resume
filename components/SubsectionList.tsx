@@ -8,15 +8,12 @@ type SubsectionListProps = {
 
 const SubsectionList: FC<SubsectionListProps> = ({ items = [] }) => {
   return (
-    <ul>
+    <ul className="list-disc ml-5">
       {items.map((item, itemIndex) => (
         <li
           key={itemIndex}
           className="mt-2.1 text-md text-gray-700 leading-normal"
         >
-          <span className="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">
-            ›
-          </span>
           <Renderable data={item} />
         </li>
       ))}
