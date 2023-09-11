@@ -18,6 +18,7 @@ const Link: FC<LinkProps> = ({ title, href, inline, className }) => {
         )}
         href={href}
         target="_blank"
+        rel="noreferrer"
       >
         {title}
       </a>
@@ -25,9 +26,10 @@ const Link: FC<LinkProps> = ({ title, href, inline, className }) => {
   }
   return (
     <a
+      className="group inline-flex items-center hover:underline"
       href={href}
       target="_blank"
-      className="group inline-flex items-center hover:underline"
+      rel="noreferrer"
     >
       {title}
       <span

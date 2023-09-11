@@ -31,7 +31,12 @@ const HeaderContact: FC<HeaderContactProps> = ({
         <span className="ml-1.5">{location}</span>
       </li>
       <li className="mt-1.5 flex items-start text-md text-gray-700 leading-normal md:order-3 print:order-3">
-        <a href={`tel:${phone}`} target="_blank" className="group flex">
+        <a
+          href={`tel:${phone}`}
+          target="_blank"
+          rel="noreferrer"
+          className="group flex"
+        >
           <span className="flex items-center flex-shrink-0">
             <svg
               className="w-4.5 h-4.5"
@@ -54,6 +59,7 @@ const HeaderContact: FC<HeaderContactProps> = ({
         <a
           href={`https://www.${website}`}
           target="_blank"
+          rel="noreferrer"
           className="group flex"
         >
           <span className="inline-flex items-center flex-shrink-0">
@@ -72,7 +78,12 @@ const HeaderContact: FC<HeaderContactProps> = ({
         </a>
       </li>
       <li className="mt-1.5 flex items-start text-md text-gray-700 leading-normal md:order-4 print:order-4">
-        <a href={`mailto:${email}`} target="_blank" className="group flex">
+        <a
+          href={`mailto:${email}`}
+          target="_blank"
+          rel="noreferrer"
+          className="group flex"
+        >
           <span className="flex items-center flex-shrink-0">
             <svg
               className="w-4.5 h-4.5"
