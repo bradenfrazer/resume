@@ -18,7 +18,7 @@ const projects: Section = {
     },
     {
       title: "Pokedex",
-      titleHref: "/projects/pokedex/",
+      titleHref: "https://www.bradenfrazer.com/projects/pokedex/",
       description: "Pokemon Encyclopedia | React, Tailwind CSS, PokeAPI",
       body: [
         {
@@ -44,7 +44,7 @@ const projects: Section = {
     },
     {
       title: "National Parks",
-      titleHref: "/projects/nationalparks/",
+      titleHref: "https://www.bradenfrazer.com/projects/nationalparks/",
       description: "Travel Info App | Vue, SCSS, National Park Service API",
       body: [
         {

@@ -5,7 +5,8 @@ const experiences: Section = {
   subsections: [
     {
       title: "Dropps",
-      titleHref: "/uploads/content/DroppsUXBrief.pdf",
+      titleHref:
+        "https://www.bradenfrazer.com/uploads/content/DroppsUXBrief.pdf",
       description: "Software Engineer (UX) | April 2022 - August 2023",
       body: [
         {
