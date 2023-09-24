@@ -6,7 +6,7 @@ type WrapperProps = {
 
 const Wrapper: FC<WrapperProps> = ({ children }) => {
   return (
-    <main className="font-firago hyphens-manual">
+    <main className="hyphens-manual">
       <div className="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter xsm:p-8 sm:p-9 md:p-16 bg-white">
         {children}
       </div>

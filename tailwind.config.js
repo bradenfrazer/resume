@@ -10,7 +10,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      print: {"raw": "print"},
+      print: { raw: "print" },
       xsm: "500px",
       sm: "640px",
       md: "833px",
@@ -18,9 +18,6 @@ module.exports = {
       xl: "1280px",
     },
     extend: {
-      fontFamily: {
-        firago: ["FiraGO", ...defaultTheme.fontFamily.sans],
-      },
       fontSize: {
         sm2: "0.9375rem", // 15px label
         base: "1rem", // 16px base
