@@ -8,9 +8,7 @@ const about: Section = {
         {
           type: "paragraph",
           items: [
-
-              "With a blended skillset between creative and technical, my passion is fusing the gap between design and code, building design systems and bringing mockups to life as responsive, accessible user experiences.",
-
+            "Frontend Engineer with 5+ years of experience and a blended skillset between creative and technical. Passionate about building design systems and component libraries, fusing the gap between design and code. Experienced with e-commerce, marketing, templated CMS sites, and SaaS.",
           ],
         },
       ],

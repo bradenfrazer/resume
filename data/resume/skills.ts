@@ -4,25 +4,35 @@ const skills: Section = {
   title: "SKILLS",
   subsections: [
     {
-      title: "Web Development",
-      description: "Languages & Tech",
-      body: [
-        {
-          type: "pills",
-          items: ["CSS / SCSS", "TypeScript", "React", "Vue", "Git"],
-        },
-      ],
-    },
-    {
-      title: "",
-      description: "UI/UX",
+      title: "Languages & Tech",
+      description: "",
       body: [
         {
           type: "pills",
           items: [
+            "HTML",
+            "CSS",
+            "SCSS",
             "Tailwind CSS",
-            "Storybook",
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "REST APIs",
+            "Git",
+          ],
+        },
+      ],
+    },
+    {
+      title: "UI/UX",
+      description: "",
+      body: [
+        {
+          type: "pills",
+          items: [
             "Figma",
+            "Storybook",
+            "A/B Testing",
             "Design Systems",
             "MUI",
             "Headless Components",
@@ -37,7 +47,7 @@ const skills: Section = {
       body: [
         {
           type: "pills",
-          items: ["Photoshop / Illustrator", "Photography", "Video Editing"],
+          items: ["Photoshop", "Illustrator", "Photography", "Video Editing"],
         },
       ],
     },

@@ -6,7 +6,7 @@ const projects: Section = {
     {
       title: "Nintendle",
       titleHref: "https://nintendle.bradenfrazer.com",
-      description: "Word Guessing Game | React, Tailwind CSS, Zustand",
+      description: "Word Guessing Game • React, Tailwind CSS, Zustand",
       body: [
         {
           type: "paragraph",
@@ -19,7 +19,7 @@ const projects: Section = {
     {
       title: "Pokedex",
       titleHref: "https://www.bradenfrazer.com/projects/pokedex/",
-      description: "Pokemon Encyclopedia | React, Tailwind CSS, PokeAPI",
+      description: "Pokemon Encyclopedia • React, Tailwind CSS, PokeAPI",
       body: [
         {
           type: "paragraph",
@@ -32,7 +32,7 @@ const projects: Section = {
     {
       title: "Weathrr",
       titleHref: "https://weathrr.bradenfrazer.com",
-      description: "Weather App | React, Tailwind CSS, OpenWeatherMap API",
+      description: "Weather App • React, Tailwind CSS, OpenWeatherMap API",
       body: [
         {
           type: "paragraph",
@@ -45,7 +45,7 @@ const projects: Section = {
     {
       title: "National Parks",
       titleHref: "https://www.bradenfrazer.com/projects/nationalparks/",
-      description: "Travel Info App | Vue, SCSS, National Park Service API",
+      description: "Travel Info App • Vue, SCSS, National Park Service API",
       body: [
         {
           type: "paragraph",
