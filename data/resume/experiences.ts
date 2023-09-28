@@ -12,15 +12,14 @@ const experiences: Section = {
         {
           type: "list",
           items: [
+            "Converted low-fidelity designs into production code for new website features as the lead frontend engineer.",
             "Pioneered efforts to move website code from Shopify's liquid engine over to React for greater interactivity.",
             "Led the migration from Material UI to Radix headless components to improve theming, accessibility, and enable server-side rendering.",
-            "Completed a full rebuild of the customer subscription portal as a single page app (SPA) in less than 3 months.",
+            "Rebuilt customer-facing subscription portal from the ground up, with a brand new single-page UI for all functionality, in less than 3 months.",
             "Systematized the design pattern library using Tailwind CSS and configured design tools.",
             "Ensured consistency between Figma and React components using Storybook.",
             "Backed design and 50+ A/B test initiatives with formal UX studies from Baymard and Nielsen Norman Group.",
             "Implemented WCAG (accessibility) best practices including ARIA roles and color contrast.",
-            "Converted low-fidelity designs into high-fidelity production code for new front-end features.",
-            "Facilitated collaboration of engineering and design.",
           ],
         },
       ],
