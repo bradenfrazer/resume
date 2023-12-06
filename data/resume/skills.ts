@@ -4,6 +4,23 @@ const skills: Section = {
   title: "SKILLS",
   subsections: [
     {
+      title: "UI/UX",
+      description: "",
+      body: [
+        {
+          type: "pills",
+          items: [
+            "Figma",
+            "Design Systems",
+            "A/B Testing",
+            "Storybook",
+            "Component Libraries",
+            "WCAG / Accessibility",
+          ],
+        },
+      ],
+    },
+    {
       title: "Languages & Tech",
       description: "",
       body: [
@@ -19,24 +36,6 @@ const skills: Section = {
             "React",
             "REST APIs",
             "Git",
-          ],
-        },
-      ],
-    },
-    {
-      title: "UI/UX",
-      description: "",
-      body: [
-        {
-          type: "pills",
-          items: [
-            "Figma",
-            "Storybook",
-            "A/B Testing",
-            "Design Systems",
-            "MUI",
-            "Headless Components",
-            "WCAG / Accessibility",
           ],
         },
       ],

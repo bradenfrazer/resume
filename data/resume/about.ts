@@ -8,7 +8,7 @@ const about: Section = {
         {
           type: "paragraph",
           items: [
-            "Frontend Engineer with 5+ years of experience and a blended skillset between creative and technical. Passionate about building design systems and component libraries, fusing the gap between design and code. Experienced with e-commerce, marketing, templated CMS sites, and SaaS.",
+            "UX Engineer with 5+ years of experience and a blended skillset between creative and technical. Passionate about fusing the gap between design and code by building design systems and component libraries. Experienced with e-commerce, marketing, templated CMS sites, and SaaS.",
           ],
         },
       ],

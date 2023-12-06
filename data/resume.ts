@@ -9,7 +9,7 @@ import about from "./resume/about";
 const resume: Resume = {
   name: "Braden Frazer",
   image: "/logo.png",
-  title: "Software Engineer (UI/UX)",
+  title: "UX Engineer, Design Technologist",
   sections: [about, experiences, education, projects, skills],
 };
 
