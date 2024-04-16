@@ -4,15 +4,18 @@ const experiences: Section = {
   title: "EXPERIENCE",
   subsections: [
     {
+      title: "Thesis",
+      description: "Software Engineer (UX) • April 2024 - Present",
+    },
+    {
       title: "Baylor Scott & White Health (Contract)",
-      description: "Front End Developer (Brand) • January 2024 - Present",
+      description: "Front End Developer (Brand) • January 2024 - April 2024",
       body: [
         {
           type: "list",
           items: [
             "Ensured adherence to brand standards and the internal design system across BSWH public-facing websites.",
             "Analyzed and improved UI/UX across public websites after the migration from Sharepoint to Sitecore.",
-            "Established best practices for development within the Brand organization, such as Git source control and project management tooling. ",
           ],
         },
       ],
