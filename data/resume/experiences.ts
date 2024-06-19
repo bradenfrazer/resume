@@ -5,7 +5,16 @@ const experiences: Section = {
   subsections: [
     {
       title: "Thesis",
-      description: "Software Engineer (UX) • April 2024 - Present",
+      description: "UX Engineer • April 2024 - Present",
+      body: [
+        {
+          type: "list",
+          items: [
+            "Orchestrated the website redesign, implementing a refreshed design system and style guide sitewide.",
+            "Generated $1M+ in revenue through building 4-5 conversion rate optimization (CRO) A/B tests monthly.",
+          ],
+        },
+      ],
     },
     {
       title: "Baylor Scott & White Health (Contract)",
@@ -33,7 +42,6 @@ const experiences: Section = {
             "Backed design and 50+ A/B test initiatives with formal UX studies from Baymard and Nielsen Norman Group.",
             "Converted low-fidelity designs into production code for new website features as the lead frontend engineer.",
             "Implemented WCAG (accessibility) best practices including ARIA roles and color contrast.",
-            "Led the migration from Material UI to Radix headless components to improve theming, accessibility, and enable server-side rendering.",
             "Pioneered efforts to move website code from Shopify's liquid engine over to React for greater interactivity.",
           ],
         },
