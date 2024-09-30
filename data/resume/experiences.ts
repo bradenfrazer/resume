@@ -5,6 +5,7 @@ const experiences: Section = {
   subsections: [
     {
       title: "Thesis",
+      titleHref: "https://www.takethesis.com",
       description: "UX Engineer • April 2024 - Present",
       body: [
         {
@@ -18,6 +19,7 @@ const experiences: Section = {
     },
     {
       title: "Baylor Scott & White Health (Contract)",
+      titleHref: "https://www.bswhealth.com",
       description: "Front End Developer (Brand) • January 2024 - April 2024",
       body: [
         {
@@ -31,7 +33,7 @@ const experiences: Section = {
     },
     {
       title: "Dropps",
-      titleHref: "https://www.bradenfrazer.com/DroppsUXBrief.pdf",
+      titleHref: "https://www.dropps.com/",
       description: "UX Engineer • April 2022 - August 2023",
       body: [
         {
@@ -49,6 +51,7 @@ const experiences: Section = {
     },
     {
       title: "Proton.ai",
+      titleHref: "https://www.proton.ai",
       description: "Frontend Engineer • May 2021 - March 2022",
       body: [
         {
