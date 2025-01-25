@@ -18,14 +18,14 @@ const projects: Section = {
       ],
     },
     {
-      title: "Dropps UX Brief",
-      titleHref: "https://www.bradenfrazer.com/DroppsUXBrief.pdf",
+      title: "Thesis UX Brief",
+      titleHref: "https://www.bradenfrazer.com/ThesisUXBrief.pdf",
       description: "UX Documentation • React, Tailwind CSS, Figma",
       body: [
         {
           type: "paragraph",
           items: [
-            "A brief that highlights UX work I performed during my time at Dropps. It covers design system work, some components built, A/B tests ran, and other UI improvements.",
+            "A brief that highlights UX work I performed during my time at Thesis. It covers design system work, some components built, A/B tests ran, and other UI improvements.",
           ],
         },
       ],

@@ -4,15 +4,31 @@ const experiences: Section = {
   title: "EXPERIENCE",
   subsections: [
     {
-      title: "Thesis",
-      titleHref: "https://www.takethesis.com",
-      description: "UX Engineer • April 2024 - Present",
+      title: "OneSignal",
+      titleHref: "https://www.onesignal.com",
+      description: "Design Engineer • November 2024 - Present",
       body: [
         {
           type: "list",
           items: [
-            "Orchestrated the website redesign, implementing a refreshed design system and style guide sitewide.",
+            "Collaborating with designers to develop and maintain OneSignal’s design system, “Beam”.",
+            "Partnering with engineers to implement components and add UI polish to our product.",
+            "Creating prototypes and tools to help us move faster at both product discovery and execution.",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Thesis",
+      titleHref: "https://www.takethesis.com",
+      description: "UX Engineer • April 2024 - November 2024",
+      body: [
+        {
+          type: "list",
+          items: [
+            "Architeched the new website frontend and component library in React, implementing a refreshed design system and style guide sitewide.",
             "Generated $1M+ in revenue through building 4-5 conversion rate optimization (CRO) A/B tests monthly.",
+            "Led frontend development on a reimagined product quiz experience, resulting in a 24.2% increase in CVR.",
           ],
         },
       ],
@@ -25,8 +41,7 @@ const experiences: Section = {
         {
           type: "list",
           items: [
-            "Ensured adherence to brand standards and the internal design system across BSWH public-facing websites.",
-            "Analyzed and improved UI/UX across public websites after the migration from Sharepoint to Sitecore.",
+            "Analyzed and improved UI/UX across BSWH public-facing websites, ensuring adherence to brand standards and the internal design system.",
           ],
         },
       ],
@@ -39,12 +54,9 @@ const experiences: Section = {
         {
           type: "list",
           items: [
-            "Systematized the design pattern library in code using Tailwind CSS and configured design tools.",
-            "Ensured consistency between Figma and React components using Storybook.",
             "Backed design and 50+ A/B test initiatives with formal UX studies from Baymard and Nielsen Norman Group.",
+            "Systematized the design pattern library in code using Tailwind CSS and configured design tools.",
             "Converted low-fidelity designs into production code for new website features as the lead frontend engineer.",
-            "Implemented WCAG (accessibility) best practices including ARIA roles and color contrast.",
-            "Pioneered efforts to move website code from Shopify's liquid engine over to React for greater interactivity.",
           ],
         },
       ],
@@ -53,24 +65,10 @@ const experiences: Section = {
       title: "Proton.ai",
       titleHref: "https://www.proton.ai",
       description: "Frontend Engineer • May 2021 - March 2022",
-      body: [
-        {
-          type: "list",
-          items: [
-            "Collaborated with designers to conduct user research and build features to fit client needs on an AI-powered SaaS sales platform for distributors.",
-          ],
-        },
-      ],
     },
     {
       title: "Gannett | USA TODAY NETWORK",
       description: "Web Developer • March 2018 – May 2021",
-      body: [
-        {
-          type: "list",
-          items: ["Built and maintained 1,000+ templated WordPress sites."],
-        },
-      ],
     },
   ],
 };
